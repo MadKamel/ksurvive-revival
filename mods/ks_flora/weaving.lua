@@ -13,5 +13,5 @@ minetest.register_node("ks_flora:juncus_block", {
 	description = "Block of Woven Juncus Stalk",
 	tiles = {"flora.juncus_block.png"},
 	groups = {sliceable = 1, falling_node = 1},
-	sounds = ks_sounds.generalnode_sounds,
+	sounds = ks_sounds.leafynode_sounds,
 })

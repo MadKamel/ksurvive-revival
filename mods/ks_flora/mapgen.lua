@@ -59,7 +59,7 @@ minetest.register_decoration({
 	deco_type = "simple",
 	place_on = "beach_sand",
 	sidelen = 9,
-	fill_ratio = 0.8,
+	fill_ratio = 0.08,
 	flags = "place_center_x, place_center_z",
 	rotation = "random",
 })
