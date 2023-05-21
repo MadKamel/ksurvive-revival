@@ -33,3 +33,9 @@ ks_sounds.snowynode_sounds.footstep = {name = "snowynode_footstep", gain = 1.0}
 ks_sounds.snowynode_sounds.dug = {name = "snowynode_dug", gain = 0.25}
 ks_sounds.snowynode_sounds.dig = {name = "snowynode_dig", gain = 0.25}
 ks_sounds.snowynode_sounds.place = {name = "snowynode_place", gain = 1.0}
+
+
+
+minetest.register_on_joinplayer(function(player)
+	minetest.sound_play({name = "underground_theme", gain = 1.0})
+end)
