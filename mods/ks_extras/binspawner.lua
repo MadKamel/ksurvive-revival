@@ -18,8 +18,8 @@ local bin_items = {
 	"ks_tools:douglasfir_stick "..math.random(max_generated_items),
 	"ks_tools:douglasfir_adze",
 	"ks_glass:annealed_glass "..math.random(max_generated_items),
-	"ks_flora:bahia_0 "..math.random(max_generated_items)*3,
-	"ks_flora:juncus_0 "..math.random(max_generated_items)*3
+	"ks_flora:bahia_0 "..math.random(max_generated_items*3),
+	"ks_flora:juncus_0 "..math.random(max_generated_items*3)
 }
 
 

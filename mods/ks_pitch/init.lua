@@ -1,6 +1,12 @@
 local pitch_viscosity = 10
 local pitch_range = 1
 
+minetest.register_node("ks_pitch:hard_pitch", {
+	description = "Hardened Pitch",
+	tiles = {"pitch.pitch.png"},
+	groups = {pitch = 1}
+})
+
 minetest.register_node("ks_pitch:pitch_source", {
 	description = "Source Pitch",
 	drawtype = "liquid",

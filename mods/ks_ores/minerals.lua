@@ -1,8 +1,8 @@
-minetest.register_craftitem("ks_ores:coal", {
-	description = "Coal Lump",
-	inventory_image = "ores.coal.png",
-	wield_image = "ores.coal.png"
-})
+--minetest.register_craftitem("ks_ores:coal", {
+--	description = "Coal Lump",
+--	inventory_image = "ores.coal.png",
+--	wield_image = "ores.coal.png"
+--})
 
 minetest.register_craftitem("ks_ores:rose_quartz", {
 	description = "Rose Quartz Crystal",
